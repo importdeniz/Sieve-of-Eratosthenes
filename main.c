@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
     prime[1] = false;
 
     // Set all indices from 2 as prime
-    for(int h = 2; h <= MAX+1; h++)
+    for(int h = 2; h <= MAX; h++)
         prime[h] = true;
 
     // Sieve of Eratosthenes
